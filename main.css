@@ -1,0 +1,86 @@
+/* General styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffd700; /* gold color for links in footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the video */
+video {
+    width: 400px; /* Smaller width for the video */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+/* Product section styles */
+.product {
+    margin: 20px 0;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Media section styles */
+section {
+    margin-bottom: 40px;
+}
